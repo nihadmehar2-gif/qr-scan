@@ -1,0 +1,17 @@
+# Build artefacts (regenerated)
+/build/
+*.apk.idsig
+
+# Build tools downloaded on demand
+/tools/android-*/
+/tools/*.zip
+
+# Keystore (do NOT commit if you replace it with your own)
+/tools/release.keystore
+
+# OS / IDE noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
